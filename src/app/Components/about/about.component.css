@@ -1,0 +1,132 @@
+/* .container {
+    font-family: 'poppins', sans-serif;
+  }
+  
+  h2, h3 {
+    color: #000000;
+  }
+  
+  img {
+    border: 5px solid #ddd;   
+  }
+
+  .img-fluid {
+    border: 3px solid #ffffff; 
+    padding: 5px; 
+  }
+  
+  i {
+    display: block;
+    margin: 0 auto;
+    color: #555;
+  }
+  
+  hr {
+    border-top: 2px solid #ddd;
+  }
+  
+  .text-purple {
+    color: #6f42c1; 
+  }
+
+  .skill-card {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+   */
+
+   /* Global Container */
+.container {
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+}
+
+/* Section Title Styling */
+.section-title {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(90deg, #ff758c, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Profile Image Styling */
+.profile-img {
+  border: 5px solid #ddd;   
+  padding: 5px; /* Add padding for spacing */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Skill Card Styling */
+.skill-card {
+  cursor: pointer;
+  background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card i {
+  display: block;
+  margin: 0 auto;
+  color: #555;
+}
+
+.skill-card h5 {
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Achievements Section */
+.achievements-list {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.achievements-list li {
+  margin-bottom: 10px;
+}
+
+/* Hover Effect on Achievements */
+.achievements-list li:hover {
+  color: #fa2f54;
+  font-weight: bold;
+}
+
+/* Responsive Styling */
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .skill-card {
+    margin-bottom: 20px;
+  }
+
+  .achievements-list {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,8 @@
+.navbar-brand{
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.navbar{
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4);;
+}

@@ -1,0 +1,55 @@
+/* Centering and padding */
+mat-dialog-container {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
+    padding: 20px;  
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .main{
+    padding: 30px;
+  }
+  
+  /* Title styling */
+  mat-dialog-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #040404;
+    margin-bottom: 15px;
+  }
+  
+  /* Content area styling */
+  mat-dialog-content {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #555;
+    /* padding: 50px; */
+  }
+  
+  mat-dialog-content ul {
+    list-style: square;
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  mat-dialog-content li {
+    margin-bottom: 5px;
+  }
+  
+  /* Button styling */
+  .close-btn {
+    background-color: #dd0031; /* Angular red color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-btn:hover {
+    background-color: #b10028; /* Darker red for hover */
+  }
+  

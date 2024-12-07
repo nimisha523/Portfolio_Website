@@ -1,0 +1,42 @@
+<div class="container mt-5 about-section">
+  <div class="row align-items-center">
+    <!-- Profile Image -->
+    <div class="col-md-4 text-center">
+      <img src="assets/background1.png" alt="Profile" class="img-fluid rounded-circle profile-img" width="250">
+    </div>
+
+    <!-- About Text -->
+    <div class="col-md-8">
+      <h2 class="section-title"><b>About Me</b></h2>
+      <p class="text-muted">
+        Hello! I'm <strong>Nimisha</strong>, a passionate software developer with expertise in creating
+        dynamic, user-friendly applications. With over 1.5 years of experience, I specialize in full-stack
+        development, problem-solving, and delivering innovative solutions.
+      </p>
+      <p class="text-muted">
+        I love collaborating with teams to design, code, and test high-quality applications. My goal is to
+        continuously learn and contribute to meaningful projects that make an impact.
+      </p>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <h2 class="section-title mt-5">My Skills</h2>
+  <div class="row text-center mt-3">
+    <div class="col-md-3" *ngFor="let skill of skills" (click)="openSkillDialog(skill)">
+      <div class="card p-3 shadow-sm skill-card">
+        <i [ngClass]="skill.icon" class="fa-3x" [style.color]="skill.color"></i>
+        <h5 class="mt-2">{{ skill.name }}</h5>
+      </div>
+    </div>
+  </div>
+
+  <!-- Achievements Section -->
+  <h3 class="section-title mt-5"><b>Achievements & Interests</b></h3>
+  <ul class="achievements-list">
+    <li>Successfully developed and deployed Attendence System, Milk Procurement Application, Student Portal System, etc.</li>
+    <li>Certified in .Net full-stack and Java full-stack courses.</li>
+    <li>Passionate about open-source contributions and technical blogging.</li>
+    <li>Hobbies include photography, singing, and exploring new technologies.</li>
+  </ul>
+</div>

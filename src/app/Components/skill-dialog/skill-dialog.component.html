@@ -1,0 +1,14 @@
+<!-- <p>skill-dialog works!</p> -->
+ <div class="main">
+<h2 mat-dialog-title>{{ data.name }}</h2>
+<div mat-dialog-content>
+  <p>{{ data.description }}</p>
+  <h4>Projects:</h4>
+  <ul>
+    <li *ngFor="let project of data.projects">{{ project }}</li>
+  </ul>
+</div>
+<div mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close class="close-btn">Close</button>
+</div>
+</div>

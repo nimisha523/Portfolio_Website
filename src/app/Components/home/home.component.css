@@ -1,0 +1,116 @@
+/* Global Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #444;
+  }
+  
+  /* Home Section */
+  .home-section {
+    background: linear-gradient(120deg, #ef89b4, #e37d8e, #e97691);
+    color: white;
+    /* border-radius: 20px; */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+ 
+  .profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    transition: transform 0.4s ease;
+  }
+  
+  .profile-img:hover {
+    transform: scale(1.1);
+  }
+  
+  .text-gradient {
+    background: linear-gradient(90deg, #fffefe, #fa046a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .highlight {
+    color: #f81640;
+    font-weight: bold;
+  }
+  
+  .btn-custom {
+    background: #fa526e;
+    color: white;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: background 0.3s;
+  }
+  
+  .btn-custom:hover {
+    background: #fa2f54;
+    color: #fff;
+  }
+  
+  /* Skills Section */
+  .skills-section {
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-card {
+    text-align: center;
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skill-card i {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .skill-card h5 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .skill-card p {
+    color: #666;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 30px 0;
+  }
+  
+  .btn-contact {
+    background: #fa526e;
+    color: white;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .btn-contact:hover {
+    background: #fa2f54;
+  }
+  
+  @media (max-width: 767px) {
+    .skills-section {
+      padding: 20px;
+    }
+    .skill-card {
+      margin-bottom: 20px;
+    }
+}
